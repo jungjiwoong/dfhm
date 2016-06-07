@@ -1,8 +1,5 @@
 ﻿// JavaScript Document
 
-
-
-
 // 슬라이드
 $(function(){
 	//스팟존
