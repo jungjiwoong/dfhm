@@ -4,7 +4,7 @@
 
 /* reset */
 body,p,div,span,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0; padding:0;}
-body,input,textarea,button,select{font-family:/*'Nanum Gothic',*/ '나눔고딕', '맑은 고딕', '돋움', Dotum, '굴림', Gulim, Sans-serif; color:#444;}
+body,input,textarea,button,select{font-family:'Nanum Gothic', '나눔고딕', '맑은 고딕', '돋움', Dotum, '굴림', Gulim, Sans-serif; color:#444;}
 body{font-size:0.813em;}
 h1,h2,h3,h4,h5,h6,input,textarea,button,select,table{font-size:1em;}
 img, fieldset, button{border:0;}

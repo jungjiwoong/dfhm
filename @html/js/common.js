@@ -19,7 +19,6 @@ $(function(){
 	var gnb_bg = $('.gnb_bg');
 
 	// Div 높이
-	/*
 	var max_gnb = 0; // 최고높이값 저장
 	var gnb_index = 0; // 최고높이값을 가진 아이템 저장	
 	$("#gnb>li").each(function(i) {
@@ -30,15 +29,18 @@ $(function(){
 		}		
 	});
 	var gnb_height = $("#gnb>li").eq(gnb_index).find("div").height();
-	//gnb_div.height(gnb_height);	
-	//gnb_bg.height(gnb_height);
-	*/
+	gnb_div.height(gnb_height);	
+	gnb_bg.height(gnb_height);
 
 	// Show
 	function show_div() {
-		$(this).parents('ul:first').children('li').removeClass('open');
-		$(this).parents('li:first').addClass('open');
-		//$(this).parents('li:first').addClass('on'); // 오버 컬러
+		//$(this).parents('ul:first').children('li').removeClass('open');
+		//$(this).parents('li:first').addClass('open');
+		$(this).parents('ul:first').children('li').addClass('open'); // 전체 오픈
+		
+		// 오버 컬러
+		$(this).parents('ul:first').children('li').removeClass('on');
+		$(this).parents('li:first').addClass('on'); 
 	 
 		//var div_height = $(this).siblings().find("ul").height();
 		//$(this).siblings().css({"height":div_height});
@@ -48,6 +50,7 @@ $(function(){
 	function hide_div() {
 		setTimeout(function(){
 			$('#gnb li').removeClass('open');
+			$('#gnb li').removeClass('on');
 		}, 1);
 		
 		//$('#gnb>li').find("div").css({"height":"0"});

@@ -24,11 +24,13 @@
 	<!-- Header -->
 	<div id="accessibility"><a href="#content">본문 바로가기</a></div>
 	<div id="header">
-		<div class="logo"><a href="#"><img src="../images/header/logo.png" alt="대구향토역사관 DAEGU FOLK HISTORY MUSEUM" /></a></div>
-		<ul class="top_area">
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">SITEMAP</a></li>
-		</ul>
+		<div class="header_top">
+			<div class="logo"><a href="#"><img src="../images/header/logo.png" alt="대구향토역사관 DAEGU FOLK HISTORY MUSEUM" /></a></div>
+			<ul class="nav_top">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">SITEMAP</a></li>
+			</ul>
+		</div>
 		<div class="gnb_area">
 			<ul id="gnb">
 				<li><a href="#">향토역사관 소개</a>
@@ -43,7 +45,6 @@
 				<li><a href="#">대구의 역사</a>
 					<div>
 						<ul>
-							<li><a href="#"></a></li>
 							<li><a href="">구석기/신석기시대</a></li>
 							<li><a href="">청동기시대</a></li>
 							<li><a href="">원삼국/초기철기시대</a></li>
@@ -63,7 +64,6 @@
 				<li><a href="#">대구의 문화와 산업</a>
 					<div>
 						<ul>
-							<li><a href="#"></a></li>
 							<li><a href="">전통교육</a></li>
 							<li><a href="">근대교육</a></li>
 							<li><a href="">민속예술</a></li>
@@ -103,16 +103,16 @@
 	</div>
 	<!-- // Header -->
 	<!-- Container -->
-	<div id="container">
-		<div class="location_wrap">
-			<div class="inr">
-				<ol>
-					<li><span>Home</span></li>
-					<li><span>향토역사관소개</span></li>
-					<li><span>개요및연혁</span></li>
-				</ol>
-			</div>
+	<div class="location_wrap">
+		<div class="inr">
+			<ol>
+				<li class="sprh_com"><span>Home</span></li>
+				<li><span>향토역사관소개</span></li>
+				<li><span>개요및연혁</span></li>
+			</ol>
 		</div>
+	</div>
+	<div id="container">
 		<div id="side">
 			<div class="snb_area">
 				<h2 class="title"><span>향토역사관 소개</span></h2>
@@ -130,7 +130,8 @@
 			<div class="cont_body">
 				
 				<!-- Content -->
-				<div>컨텐츠</div>
+				<h2 class="conTit1">향토역사관?</h2>
+				<div class="conBox">컨텐츠</div>
 				<!-- //Content -->
 				
 			</div>
@@ -153,11 +154,11 @@
 		</div>
 		<div class="inr">
 			<div class="logo"><img src="../images/footer/logo.png" alt="대구향토역사관 DAEGU FOLK HISTORY MUSEUM" /></div>
-			<div class="address">
-				<p>대구광역시 중구 달성공원로 35(달성동,달성공원)</p>
-				<p>Tel : 053-606-6421~6422 Fax : 606-6429</p>
+			<div class="copyright">
+				<p class="address">대구광역시 중구 달성공원로 35(달성동,달성공원)</p>
+				<p class="tel">Tel : 053-606-6421~6422 Fax : 606-6429</p>
+				<p class="copy">Copyright by Daegu folk history museum All rights Reserved.</p>
 			</div>
-			<p class="copy">Copyright by Daegu folk history museum All rights Reserved.</p>
 		</div>
 		<div class="go_top"><a href="#top"><span>TOP</span></a></div>
 	</div>
