@@ -1,379 +1,165 @@
-<!DOCTYPE HTML>
-<html lang="ko">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-<title>Untitled Document</title>
-<link rel="stylesheet" type="text/css" href="../../css/base.css">
-<link rel="stylesheet" type="text/css" href="../../css/layout.css">
-<link rel="stylesheet" type="text/css" href="../../css/layout_mq.css">
-<link rel="stylesheet" type="text/css" href="../../css/common.css">
-<link rel="stylesheet" type="text/css" href="../../css/board.css">
-<link rel="stylesheet" type="text/css" href="../../css/content.css">
-<script type="text/javascript" src="../../js/jquery-1.12.2.min.js"></script>
-<script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
-<script type="text/javascript" src="../../js/common.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<title>Page Title | 대구향토역사관</title>
+<link rel="stylesheet" type="text/css" href="../css/base.css" />
+<link rel="stylesheet" type="text/css" href="../css/layout.css" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/board.css" />
+<link rel="stylesheet" type="text/css" href="../css/content.css" />
+<script type="text/javascript" src="../js/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
 <!--[if lt IE 9]>
-<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="../js/html5.js"></script>
+<script type="text/javascript" src="../js/css3-mediaqueries.js"></script>
 <![endif]-->
 </head>
 
-<body>
+<body class="intro c0000"><!-- 클래스명에 (카테고리명, CMS번호) 추가-->
 <div id="wrap">
 	<!-- Header -->
 	<div id="accessibility"><a href="#content">본문 바로가기</a></div>
 	<div id="header">
-		<div class="header_top">
-			<div class="inr">
-				<div class="wholeview">
-					<button class="btn_open" type="button"><span>전체메뉴</span></button>
-					<div class="wv_wrap">
-						<div class="nav_wholeview"></div>
-						<div class="wv_bg"></div>
-					</div>
-				</div>
-				<div class="util_left">
-					<div class="local_medi"><a href="#"><span>지역의료기관</span></a></div>
-					<dl class="font_size">
-						<dt>글자크기</dt>
-						<dd>
-							<button type="button" class="zin"><span>글자크게</span></button>
-						</dd>
-						<dd>
-							<button type="button" class="zout"><span>글자작게</span></button>
-						</dd>
-					</dl>
-				</div>
-				<div class="util_right">
-					<ul class="login_area">
-						<li class="login"><a href="#">로그인</a></li>
-						<li class="join"><a href="#">회원가입</a></li>
-						<li class="sitemap"><a href="#">사이트맵</a></li>
-					</ul>
-					<div class="lang_group">
-						<div class="lang_area">
-							<button type="button"><span>Language</span></button>
-							<div class="lst">
-								<ul>
-									<li><a href="#">English</a></li>
-									<li><a href="#">中文</a></li>
-									<li><a href="#">日本語</a></li>
-								</ul>
-							</div>
-						</div>
-						<ul class="sns_area">
-							<li class="blog"><a href="#" class="sprh_com">블로그</a></li>
-							<li class="facebook"><a href="#" class="sprh_com">페이스북</a></li>
-							<li class="youtube"><a href="#" class="sprh_com">유튜브</a></li>
-						</ul>
-					</div>
-				</div>
-				<button class="btn_srch" type="button"><span class="sprh_com">검색</span></button>
-			</div>
-		</div>
-		<div class="header_mid">
-			<div class="logo"><a href="#"><img src="../../images/header/logo.png" alt="대한민국 의료특별시 메디시티대구"></a></div>
-			<div class="srch_area">
-				<form name="" action="" method="">
-					<div class="inp_srch">
-						<label for="word">검색어</label>
-						<input type="text" id="word" name="" value="" placeholder="검색어를 입력하세요" class="word">
-						<input type="submit" value="검색" class="sprh_com btn_srch">
-					</div>
-				</form>
-				<dl class="hotkeyword">
-					<dt>인기검색어 :</dt>
-					<dd><span><a href="#">성형수술</a></span><span><a href="#">모발이식</a></span><span><a href="#">채용공고</a></span></dd>
-				</dl>
-			</div>
-		</div>
-		<div class="gnb_wrap">
-			<div class="inr">
-				<ul id="gnb">
-					<li><a href="#">메디시티대구</a>
-						<div>
-							<ul>
-								<li><a href="#">인사말</a>
-									<ul>
-										<li><a href="#">인사말</a></li>
-									</ul>
-								</li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-							</ul>
-							<div class="bg">
-								<p class="tit">메디시티대구</p>
-								<p>Medical Capital of Korea,<br>
-MEDI-CITY DAEGU!</p>
-							</div>
-						</div>
-					</li>
-					<li><a href="#">메디시티협의회</a>
-						<div>
-							<ul>
-								<li><a href="#">인사말</a>
-									<ul>
-										<li><a href="#">인사말</a></li>
-									</ul>
-								</li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-							</ul>
-							<div class="bg">
-								<p class="tit">메디시티대구</p>
-								<p>Medical Capital of Korea,<br>
-MEDI-CITY DAEGU!</p>
-							</div>
-						</div>
-					</li>
-					<li><a href="#">의료관광</a>
-						<div>
-							<ul>
-								<li><a href="#">인사말</a>
-									<ul>
-										<li><a href="#">인사말</a></li>
-									</ul>
-								</li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-							</ul>
-							<div class="bg">
-								<p class="tit">메디시티대구</p>
-								<p>Medical Capital of Korea,<br>
-MEDI-CITY DAEGU!</p>
-							</div>
-						</div>
-					</li>
-					<li><a href="#">커뮤니티</a>
-						<div>
-							<ul>
-								<li><a href="#">인사말</a>
-									<ul>
-										<li><a href="#">인사말</a></li>
-									</ul>
-								</li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-							</ul>
-							<div class="bg">
-								<p class="tit">메디시티대구</p>
-								<p>Medical Capital of Korea,<br>
-MEDI-CITY DAEGU!</p>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<div class="wholeview">
-					<button type="button" class="btn_open"><span class="sprh_com">전체메뉴 보기</span></button>
-					<div class="nav_wholeview">
+		<div class="logo"><a href="#"><img src="../images/header/logo.png" alt="대구향토역사관 DAEGU FOLK HISTORY MUSEUM" /></a></div>
+		<ul class="top_area">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">SITEMAP</a></li>
+		</ul>
+		<div class="gnb_area">
+			<ul id="gnb">
+				<li><a href="#">향토역사관 소개</a>
+					<div>
 						<ul>
-							<li><a href="#">메디시티대구</a>
-								<div>
-									<ul>
-										<li><a href="#">인사말</a></li>
-										<li><a href="#">사업소개</a>
-											<ul>
-												<li><a href="#">메디시티대구란?</a></li>
-												<li><a href="#">비전</a></li>
-												<li><a href="#">연혁 및 조직도</a></li>
-												<li><a href="#">선도의료기관</a></li>
-												<li><a href="#">일반회원기관</a></li>
-												<li><a href="#">브랜드콘셉</a></li>
-											</ul>
-										</li>
-										<li><a href="#">대구의료경쟁력</a></li>
-										<li><a href="#">대구의료기관정보</a></li>
-										<li><a href="#">유관기관</a>
-											<ul>
-												<li><a href="#">의료기관</a></li>
-												<li><a href="#">공공기관</a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">메디시티협의회</a>
-								<div>
-									<ul>
-										<li><a href="#">협의회소개</a></li>
-										<li><a href="#">협의회소개</a></li>
-										<li><a href="#">협의회소개</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">의료관광</a>
-								<div>
-									<ul>
-										<li><a href="#">협의회소개</a></li>
-										<li><a href="#">협의회소개</a></li>
-										<li><a href="#">협의회소개</a></li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="#">커뮤니티</a>
-								<div>
-									<ul>
-										<li><a href="#">협의회소개</a></li>
-										<li><a href="#">협의회소개</a></li>
-										<li><a href="#">협의회소개</a></li>
-									</ul>
-								</div>
-							</li>
+							<li><a href="">개요 및 연혁</a></li>
+							<li><a href="">대구의 역사 및 연표</a></li>
+							<li><a href="">찾아오시는 길</a></li>
 						</ul>
 					</div>
-				</div>
-			</div>
+				</li>
+				<li><a href="#">대구의 역사</a>
+					<div>
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="">구석기/신석기시대</a></li>
+							<li><a href="">청동기시대</a></li>
+							<li><a href="">원삼국/초기철기시대</a></li>
+							<li><a href="">삼국시대</a></li>
+							<li><a href="">달성유적</a></li>
+							<li><a href="">통일신라시대</a></li>
+							<li><a href="">고려시대</a></li>
+							<li><a href="">조선시대</a></li>
+							<li><a href="">대구읍성</a></li>
+							<li><a href="">근대역사아카데미</a></li>
+							<li><a href="">일제강점기</a></li>
+							<li><a href="">현대</a></li>
+							<li><a href="">제1전시실VR</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">대구의 문화와 산업</a>
+					<div>
+						<ul>
+							<li><a href="#"></a></li>
+							<li><a href="">전통교육</a></li>
+							<li><a href="">근대교육</a></li>
+							<li><a href="">민속예술</a></li>
+							<li><a href="">전통가옥</a></li>
+							<li><a href="">농업</a></li>
+							<li><a href="">상업</a></li>
+							<li><a href="">약령시</a></li>
+							<li><a href="">섬유</a></li>
+							<li><a href="">제2전시실VR</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">주요 소장유물</a>
+					<div>
+						<ul>
+							<li><a href="#">주요 소장유물</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">관련링크</a>
+					<div>
+						<ul>
+							<li><a href="#">관련링크</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">기획전시 및 발간자료</a>
+					<div>
+						<ul>
+							<li><a href="#">기획전시</a></li>
+							<li><a href="">발간자료</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<!-- // Header -->
 	<!-- Container -->
 	<div id="container">
-		<div class="sub_visual">
-			<div class="txt">
-				<p class="tit">메디시티대구란?</p>
-				<p>메디시티대구는 의료기술 및 서비스에 앞서가는 대한민국 의료특별시의 새로운 이름입니다.</p>
+		<div class="location_wrap">
+			<div class="inr">
+				<ol>
+					<li><span>Home</span></li>
+					<li><span>향토역사관소개</span></li>
+					<li><span>개요및연혁</span></li>
+				</ol>
 			</div>
 		</div>
-		
-		<!-- LNB -->
-		<div class="location_wrap">
-			<h1 class="tit">메디시티대구란?</h1>
-			<div class="inr">
-				<ol id="lnb" class="nav">
-					<li><a href="/">홈</a></li>
-					<li><a href="/">메디시티대구<span class="unfd">같은 레벨 메뉴 보기</span></a>
-						<div>
-							<ul>
-								<li><a href="#">메디시티대구</a></li>
-								<li><a href="#">메디시티협의회</a></li>
-								<li><a href="#">의료관광</a></li>
-								<li><a href="#">커뮤니티</a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="/">사업소개<span class="unfd">같은 레벨 메뉴 보기</span></a>
-						<div>
-							<ul>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-								<li><a href="#">사업소개</a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="/">메대시티대구란?<span class="unfd">같은 레벨 메뉴 보기</span></a>
-						<div>
-							<ul>
-								<li><a href="#">메대시티대구란?</a></li>
-								<li><a href="#">메대시티대구란?</a></li>
-								<li><a href="#">메대시티대구란?</a></li>
-								<li><a href="#">메대시티대구란?</a></li>
-							</ul>
-						</div>
-					</li>
-				</ol>
-				<ul class="sns_area">
-					<li class="facebook"><a href="#" class="sprh_com">페이스북 공유</a></li>
-					<li class="kakaostory"><a href="#" class="sprh_com">카카오스토리 공유</a></li>
-					<li class="twitter"><a href="#" class="sprh_com">트위터 공유</a></li>
-					<li class="print"><a href="#" class="sprh_com">프린트</a></li>
+		<div id="side">
+			<div class="snb_area">
+				<h2 class="title"><span>향토역사관 소개</span></h2>
+				<ul class="snb">
+					<li><a href="#">개요 및 연혁</a></li>
+					<li><a href="#">대구의 역사 및 연표</a></li>
+					<li><a href="#">찾아오시는 길</a></li>
 				</ul>
 			</div>
 		</div>
-		<!-- // LNB -->
-		
 		<div id="content" class="cont_wrap">
 			<div class="cont_head">
-				
+				<h1 class="title">개요 및 연혁</h1>
 			</div>
 			<div class="cont_body">
 				
 				<!-- Content -->
-				<div class="cont_greeting">
-					<h2>대한민국. 의료특별시. 메디시티대구.</h2>
-					<p>대한민국 최고의 의료의 질 및 서비스를 갖춘 도시로의 도약을 위해 지역 의료기관이 연대하여 하나가 된다. <br>
-뿐만 아니라 인근 국가와 전 세계에 우리나라를 대표하는 최고의 의료도시로 자리매김한다.</p>
-				</div>
+				<div>컨텐츠</div>
 				<!-- //Content -->
 				
 			</div>
 			<div class="cont_foot">
-				<div class="cont_manager">
-					<div class="inr">
-						<dl class="manager">
-							<dt>자료 담당자 :</dt>
-							<dd> <span>대구의료관광진흥원</span> <span>하민철</span> <span><a href="tel:053-253-1575">Tel. 253-1575</a></span> </dd>
-						</dl>
-						<dl class="update">
-							<dt>최근자료수정일 :</dt>
-							<dd> 2016.05.01 </dd>
-						</dl>
-					</div>
-				</div>
-				<div class="cont_rating">
-					<h2>현재페이지의 내용과 사용편의성에 만족하십니까?</h2>
-					<div class="inp_area"> 
-						<form id="" action="#" method="post">
-						<fieldset>
-							<legend>사용편의성 만족도</legend>
-							<span class="inp_group"><input type="radio" id="cmt1" value="5" name="satisfaction_chk" class="inp_rdo">
-							<label for="cmt1">매우 만족</label></span>
-							<span class="inp_group"><input type="radio" id="cmt2" value="4" name="satisfaction_chk" class="inp_rdo">
-							<label for="cmt2">만족</label></span>
-							<span class="inp_group"><input type="radio" id="cmt3" value="3" name="satisfaction_chk" class="inp_rdo">
-							<label for="cmt3">보통</label></span>
-							<span class="inp_group"><input type="radio" id="cmt4" value="2" name="satisfaction_chk" class="inp_rdo">
-							<label for="cmt4">불만족</label></span>
-							<span class="inp_group"><input type="radio" id="cmt5" value="1" name="satisfaction_chk" class="inp_rdo">
-							<label for="cmt5">매우 불만족</label></span>
-							<input type="button" onclick="rate('DOMAINMSTR_000000000001','00000848');" value="평가하기" class="btn_rate">
-						</fieldset>
-						</form>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
 	<!-- //Container -->
 	<!-- Footer -->
 	<div id="footer">
-		<div class="inr">
-			<div class="logo"><img src="../../images/footer/logo.png" alt="대한민국 의료특별시 메디시티대구"></div>
-			<div class="footer_cen">
-				<ul class="nav_f">
-					<li><a href="#">메디시티대구 소개</a></li>
-					<li><a href="#"><strong>개인정보취급방침</strong></a></li>
-					<li><a href="#">이용약관</a></li>
-					<li><a href="#">뷰어다운로드</a></li>
-					<li><a href="#">이메일무단수집거부</a></li>
-					<li><a href="#">찾아오시는길</a></li>
-				</ul>
-				<p class="address">[우.41931] 대구광역시 중구 달구벌대로 2033 대구메디시티센터 5F 전화: <a href="tel:053-253-1575">053-253-1575</a> 팩스: 053-253-1567</p>
-				<p class="copy">Copyright &copy; MEDI-CITY DAEGU All rights reserved.</p>
-			</div>
-			<div class="site_related">
-				<button type="button" class="btn_open"><span>관련사이트 가기</span></button>
-				<div class="lst">
-					<ul>
-						<li><a href="http://www.daegu.go.kr">대구광역시청</a></li>
-						<li><a href="http://www.meditour.go.kr">대구의료관광</a></li>
-						<li><a href="http://www.e-gen.or.kr/egen/main.do">응급의료정보</a></li>
-						<li><a href="http://www.mediexpo.co.kr/">메디엑스포</a></li>
-						<li><a href="http://www.tgma.org/main/main.php">대구광역시의사회</a></li>
-					</ul>
-				</div>
-			</div>
+		<div class="nav_f">
+			<ul>
+				<li><a href="#">행정서비스헌장</a></li>
+				<li><a href="#">이용약관</a></li>
+				<li><a href="#">개인정보처리방침</a></li>
+				<li><a href="#">영상정보처리기기운영/관리방침</a></li>
+				<li><a href="#">이메일무단수집거부</a></li>
+			</ul>
 		</div>
+		<div class="inr">
+			<div class="logo"><img src="../images/footer/logo.png" alt="대구향토역사관 DAEGU FOLK HISTORY MUSEUM" /></div>
+			<div class="address">
+				<p>대구광역시 중구 달성공원로 35(달성동,달성공원)</p>
+				<p>Tel : 053-606-6421~6422 Fax : 606-6429</p>
+			</div>
+			<p class="copy">Copyright by Daegu folk history museum All rights Reserved.</p>
+		</div>
+		<div class="go_top"><a href="#top"><span>TOP</span></a></div>
 	</div>
 	<!-- //Footer -->
 </div>
