@@ -1,11 +1,8 @@
 @charset "utf-8";
 /* Layout CSS Document */
 /* 스프라이트 이미지 */
-.sprh_com,
-.header_top .lang_area button:after,
-.location_wrap .nav>li:after,
-.location_wrap .nav>li:first-child>a:after{display:inline-block; overflow:hidden; background:url(../images/common/sp_com.png) no-repeat 0 0; vertical-align:middle; text-indent:-9999em;}
-/*** Mobile ~ 639px ***/
+.sprh_com{display:inline-block; overflow:hidden; background:url(../images/common/sp_com.png) no-repeat 0 0; vertical-align:middle; text-indent:-9999em;}
+
 #wrap{min-width:320px;}
 #wrap.fixed{}
 /* Header */
