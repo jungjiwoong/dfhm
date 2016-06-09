@@ -1,4 +1,106 @@
 @charset "utf-8";
 
 /* Main CSS Document */
+/* 스프라이트 이미지 */
+.sprh_main,
+.main_wrap .collectionzone .bx-controls a{display:inline-block; overflow:hidden; background:url(../images/main/sp_main.png) no-repeat 0 0; vertical-align:middle; text-indent:-9999em;}
+body{background:#484340 url(../images/main/bg_mainvisual.jpg) no-repeat 50% 0;}
+/* Header */
+#header{background:none;}
+/* Footer */
+#footer{width:1000px; margin:0 auto 40px;}
+#footer .nav_f{min-width:870px; width:870px; margin:0 35px;}
+#footer .nav_f ul{width:auto;}
+#footer .nav_f ul>li:first-child{padding-left:0px;}
 
+#container{padding:0;}
+/* Main */
+.main_wrap .main_top{height:290px; text-align:center;}
+.main_wrap .main_top .tit{display:inline-block; margin:40px 0 0; font-weight:bold; line-height:1.2; color:#fff;}
+.main_wrap .main_top .tit p:first-child{position:relative; padding:10px 0 0; font-size:3.08em;}
+.main_wrap .main_top .tit p:first-child:before{content:''; display:inline-block; position:absolute; top:0; left:0; width:100%; height:2px; background:#9c6646;}
+.main_wrap .main_top .tit p:first-child span:before{content:''; display:inline-block; position:absolute; top:0; left:0; width:35px; height:2px; background:#ff5813;}
+.main_wrap .main_top .tit p:first-child span:after{content:''; display:inline-block; position:absolute; top:0; left:35px; width:35px; height:2px; background:#68796c;}
+.main_wrap .main_top .tit p:first-child+p{color:#ababab;}
+.main_wrap .main_top .txt{margin:30px 0 0; font-size:1.31em; font-weight:bold; line-height:1.5; color:#9c6646;}
+
+.main_wrap .section01{margin:40px 0 0; word-break:keep-all; word-wrap:break-word;}
+.main_wrap .section01:after{content:''; display:block; clear:both;}
+.main_wrap .section01 .colgroup01{float:left; width:240px;}
+/* 향토역사관 소개 */
+.main_wrap .intro_area{height:180px; padding:0 35px; background:url(../images/main/bg_intro.jpg) no-repeat 0 0;}
+.main_wrap .section01 .colgroup01 h2{display:inline-block; margin:35px 0 10px; font-weight:bold; font-size:1.23em; color:#fff;}
+.main_wrap .section01 .colgroup01 p{line-height:1.5; color:#aaa;}
+.main_wrap .section01 .colgroup01 .more{margin:25px 0 0;}
+.main_wrap .section01 .colgroup01 .more a{width:29px; height:29px; background-position:0 0;}
+/* 찾아오시는 길 */
+.main_wrap .map_area{height:180px; padding:0 35px; background:#fff url(../images/main/bg_map.jpg) no-repeat 100% 100%;}
+.main_wrap .section01 .map_area h2{color:#484340;}
+.main_wrap .section01 .map_area .more a{background-position:-30px 0;}
+/* 주요소장유물 */
+.main_wrap .collection_area{float:left; width:245px; height:360px; margin-left:10px; background:#fff; text-align:center;}
+.main_wrap .collection_area h2{display:inline-block; margin:35px 0 10px; font-weight:bold; font-size:1.23em; color:#484340;}
+.main_wrap .collection_area .more a{width:29px; height:29px; background-position:-30px 0;}
+.main_wrap .collectionzone{position:relative; margin:18px 0 0;}
+.main_wrap .collectionzone .lst a{display:block;}
+.main_wrap .collectionzone .lst .tit{display:block; margin:15px 0 0; font-weight:bold; line-height:1.5; color:#6c5648; word-break:keep-all; word-wrap:break-word;}
+.main_wrap .collectionzone .bx-controls a{position:absolute; top:55px; width:26px; height:52px;}
+.main_wrap .collectionzone a.bx-prev{left:0; background-position:0 -30px;}
+.main_wrap .collectionzone a.bx-next{right:0; background-position:-30px -30px;}
+/* 관람시간 */
+.main_wrap .section01 .open_area{float:right; position:relative; width:495px; height:360px; background:url(../images/main/img_opentime.jpg) no-repeat 0 0;}
+.main_wrap .section01 .open_area .bx{position:absolute; bottom:0; right:0; padding:20px; background:url(../images/main/bg_opentime.jpg) repeat 0 0;}
+.main_wrap .section01 .open_area .bx .inr{min-width:170px; min-height:100px; padding:20px; background:rgba(0,0,0,.5);}
+.main_wrap .section01 .open_area h2{font-weight:bold; font-size:1.23em; line-height:1.2; color:#fff;}
+.main_wrap .section01 .open_area ul{margin:17px 0 0;}
+.main_wrap .section01 .open_area ul li{position:relative; padding:0 0 0 10px; font-weight:bold; line-height:1.5; color:#888;}
+.main_wrap .section01 .open_area ul li:before{content:''; display:inline-block; position:absolute; top:50%; left:0; width:3px; height:3px; margin:-1px 0 0; background:#ababab;}
+.main_wrap .section01 .open_area ul li strong{color:#895b3e;}
+
+.main_wrap .section02{margin:30px 0;}
+.main_wrap .section02:after{content:''; display:block; clear:both;}
+/* 향토역사관 전시실VR */
+.main_wrap .vr_area{float:left; width:600px; height:110px; background:url(../images/main/bg_vr.jpg) repeat 0 0;}
+.main_wrap .vr_area h2{float:left; position:relative; margin:30px 0 0 35px; padding:7px 0 0 18px; font-size:1.23em; line-height:1.2; color:#fff;}
+.main_wrap .vr_area h2 span{display:block;}
+.main_wrap .vr_area h2:before{content:''; display:inline-block; position:absolute; top:0; left:0; width:3px; height:50px; background:#c68e44;}
+.main_wrap .vr_area .lst{float:left; margin:30px 0 0 25px;}
+.main_wrap .vr_area .lst li{float:left; margin-right:10px;}
+.main_wrap .vr_area .lst li a{display:block; position:relative; width:170px; height:50px; padding-left:20px; box-shadow:1px 1px 0 #2f2a27; background:#484340; font-weight:bold; font-size:1.08em; line-height:50px; color:#fff;}
+.main_wrap .vr_area .lst li a:before,
+.main_wrap .vr_area .lst li a:after{content:''; display:inline-block; position:absolute; top:50%; right:20px; background:#7f7c7a;}
+.main_wrap .vr_area .lst li a:before{width:12px; height:2px; margin:-1px 0 0 0;}
+.main_wrap .vr_area .lst li a:after{width:2px; height:12px; margin:-6px 5px 0 0;}
+/* 기획전시 */
+.main_wrap .exh_area{float:left; position:relative; width:190px; height:110px; margin-left:10px; background:#6f6558;}
+.main_wrap .exh_area h2{display:inline-block; position:relative; margin:25px 0 0 30px; padding:10px 0 0; font-size:1.23em; line-height:1.2; color:#fff;}
+.main_wrap .exh_area h2:before{content:''; display:inline-block; position:absolute; top:0; left:0; width:30px; height:2px; background:#c68e44;}
+.main_wrap .exh_area .txt{margin:5px 30px 0 30px; line-height:1.5; color:#aaa;}
+.main_wrap .exh_area .more{position:absolute; top:33px; right:30px;}
+.main_wrap .exh_area .more a{display:inline-block; overflow:hidden; width:12px; height:12px; text-indent:-9999em; white-space:nowrap; vertical-align:top;}
+.main_wrap .exh_area .more a:before,
+.main_wrap .exh_area .more a:after{content:''; display:inline-block; position:absolute; top:0; right:0; background:#9a948a;}
+.main_wrap .exh_area .more a:before{width:12px; height:2px; margin:5px 0 0 0;}
+.main_wrap .exh_area .more a:after{width:2px; height:12px; margin:0 5px 0 0;}
+/* 발간자료 */
+.main_wrap .exh_area+.exh_area{float:right;}
+/* 대구의 문화와 산업 */
+.main_wrap .indus_area{height:290px; margin:0 0 30px; background:url(../images/main/bg_culture.jpg) no-repeat 0 0;}
+.main_wrap .indus_area .tit{padding:40px 0 13px; font-size:1.8em; color:#6f6558; letter-spacing:-1px; text-align:center;}
+.main_wrap .indus_area .txt{color:#aaa; text-align:center;}
+.main_wrap .indus_area .lst{margin:40px 0 0 35px;}
+.main_wrap .indus_area .lst li{float:left; position:relative; width:220px; margin:0 18px 18px 0; background:#fff; box-shadow:1px 1px 0 #c8c8c8;}
+.main_wrap .indus_area .lst li:before{content:''; display:inline-block; position:absolute; top:0; left:0; width:50px; height:50px; background:url(../images/main/sp_main.png) no-repeat 0 -100px;}
+.main_wrap .indus_area .lst li.tra:before{background-position:0 -100px;}
+.main_wrap .indus_area .lst li.mod:before{background-position:-50px -100px;}
+.main_wrap .indus_area .lst li.fol:before{background-position:-100px -100px;}
+.main_wrap .indus_area .lst li.hou:before{background-position:-150px -100px;}
+.main_wrap .indus_area .lst li.far:before{background-position:-200px -100px;}
+.main_wrap .indus_area .lst li.bus:before{background-position:-250px -100px;}
+.main_wrap .indus_area .lst li.yag:before{background-position:-300px -100px;}
+.main_wrap .indus_area .lst li.fib:before{background-position:-350px -100px;}
+.main_wrap .indus_area .lst li a{display:block; position:relative; height:50px; padding:0 0 0 63px; font-weight:bold; font-size:1.08em; line-height:50px;}
+.main_wrap .indus_area .lst li a:before,
+.main_wrap .indus_area .lst li a:after{content:''; display:inline-block; position:absolute; top:50%; right:20px; background:#9a948a;}
+.main_wrap .indus_area .lst li a:before{width:12px; height:2px; margin:-1px 0 0 0;}
+.main_wrap .indus_area .lst li a:after{width:2px; height:12px; margin:-6px 5px 0 0;}

@@ -3,15 +3,15 @@
 // 슬라이드
 $(function(){
 	//스팟존
-	$('.spotzone .lst').bxSlider({
-		mode: 'fade',
+	$('.collectionzone .lst').bxSlider({
+		//mode: 'fade',
 		slideZIndex: 20,
 		auto: true,
 		autoHover: true,
-		autoControls: true,
-		controls: false,
+		//autoControls: true,
+		//controls: false,
 		//autoStart: false,
-		//pager: false,						
+		pager: false,						
 		autoControlsCombine: true
 	});
 	
